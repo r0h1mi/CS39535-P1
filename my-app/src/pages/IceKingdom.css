@@ -1,0 +1,22 @@
+.ice-page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #1c69cc, #00d4ff);
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
