@@ -8,5 +8,5 @@ npm install react-router-dom
 
 GROUP MEMBERS:
 1. Michelle Goenawan [r0h1mi]
-2. Nabi bBttar [nabibuttar123]
+2. Nabi Buttar [nabibuttar123]
 3. Nafew Mustafa [Nafyou] 
