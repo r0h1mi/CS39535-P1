@@ -6,14 +6,14 @@ import Card from './components/Card';
 import IceKingdom from './pages/IceKingdom';
 import CandyLand from './pages/CandyLand';
 import Nightosphere from './pages/Nightosphere';
-
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
     
     <Router>
       <Routes>
-        <Route path="/" element={<Navbar />}  />
+        <Route path="/" element={<Homepage />}  />
         <Route path="/candy-land" element={<CandyLand />} />
         <Route path="/ice-kingdom" element={<IceKingdom/>} />
         <Route path="/nightosphere" element={<Nightosphere />} />
