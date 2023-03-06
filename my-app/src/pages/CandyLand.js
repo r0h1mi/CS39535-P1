@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
+import Cinnabon from '../components/images/CinnamonBun.png';
+import Bubblegum from '../components/images/bubblegumwavy.png';
+import BananaGuards from '../components/images/bananaguards.png';
 import './CandyLand.css';
 
 
@@ -12,19 +15,19 @@ const CandyLand = () => {
       <h1>Candy Land</h1>
       <div className="cards-container">
         <Card
-          image="https://via.placeholder.com/500x300.png?text=Candy+Kingdom"
-          title="Candy Kingdom"
-          description="The sweetest place in all of Ooo! Home to Princess Bubblegum and her loyal subjects."
+          title="Meet Cinnabon !"
+          description="Cinnabon is the sweetest helper. Often anxious, he means the best"
+          image={Cinnabon}
         />
         <Card
-          image="https://via.placeholder.com/500x300.png?text=Lumpy+Space"
-          title="Lumpy Space"
-          description="A land of bouncy hills and silly creatures, where Lumpy Space Princess rules as queen."
+          image={Bubblegum}
+          title="Princess Bubblegum"
+          description="Come Party With the Princess!"
         />
         <Card
-          image="https://via.placeholder.com/500x300.png?text=Bad+Lands"
-          title="Bad Lands"
-          description="A dangerous wasteland full of dangers, where the evil Ice King plots his evil schemes."
+          image={BananaGuards}
+          title="Banana Guards"
+          description="Safely Explore the Secrets of the Kingdom with the Banana Guards!"
         />
       </div>
     </div>

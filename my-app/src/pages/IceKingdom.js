@@ -1,23 +1,28 @@
 import React from 'react';
 import Card from '../components/Card';
-import './IceKingdom.css';
 import Navbar from '../components/Navbar';
+import Gunter from '../components/images/gunterstealer.webp'
+import Iceking from '../components/images/icekingfrozenhands.webp'
+import Icemountain from '../components/images/icemountain.jpg'
+import './IceKingdom.css';
+
+
 const IceKingdom = () => {
   const cards = [
     {
-      image: 'https://via.placeholder.com/300x200',
-      title: 'Finn',
-      description: 'The hero of the Ice Kingdom'
+      image: Icemountain,
+      title: 'Mount Ice',
+      description: 'Climb up Mount Ice for scenic views !'
     },
     {
-      image: 'https://via.placeholder.com/300x200',
-      title: 'Jake',
-      description: 'Finn\'s best friend and sidekick'
-    },
-    {
-      image: 'https://via.placeholder.com/300x200',
+      image: Iceking,
       title: 'Ice King',
-      description: 'The main antagonist of the Ice Kingdom'
+      description: 'Defeat the Ice King!!!'
+    },
+    {
+      image: Gunter,
+      title: 'Gunter',
+      description: 'Meet the cutest penguins of Ooo!!!'
     }
   ];
 
@@ -37,7 +42,6 @@ const IceKingdom = () => {
         ))}
       </div>
     </div>
-
     </>
   );
 };

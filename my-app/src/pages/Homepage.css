@@ -1,10 +1,10 @@
-.candy-page-container {
+.home-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #f312e8;
-    color: hsl(317, 100%, 51%);
+    background-color: #f88df3;
+    color: hsl(129, 82%, 46%);
   }
   
   .cards-container {
@@ -15,7 +15,6 @@
   }
   
   h1 {
-    font-family: 'Franklin Gothic Medium';
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem;
