@@ -27,7 +27,7 @@ const CandyLand = () => {
         <Card
           image={BananaGuards}
           title="Banana Guards"
-          description="Safely Explore the Secrets of the Kingdom with the Banana Guards!"
+          description="Safely Explore the Secrets of the Candy Kingdom with the Banana Guards!"
         />
       </div>
     </div>
