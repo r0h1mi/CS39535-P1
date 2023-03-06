@@ -31,6 +31,10 @@
   margin-right: 15px;
 }
 
+li{
+  list-style-type: none;
+}
+
 .nav-link:hover {
   color: blue;
 }

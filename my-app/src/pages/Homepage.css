@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #f88df3;
-    color: hsl(129, 82%, 46%);
+    background: linear-gradient(to bottom right, #cc1c65, #fbff00);
   }
   
   .cards-container {

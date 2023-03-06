@@ -6,19 +6,19 @@ const Homepage = () => {
 
   const cards = [
     {
-      image: 'https://via.placeholder.com/300x200',
+      image: 'https://qph.cf2.quoracdn.net/main-qimg-df6f63f7251c7d92f1a004eaa7fe003b',
       title: 'Finn',
       description: 'The hero of the Ice Kingdom'
     },
     {
-      image: 'https://via.placeholder.com/300x200',
+      image: 'https://i.pinimg.com/originals/1a/27/ea/1a27ea7b0e95a1db6a6f4d8da29a82e0.png',
       title: 'Jake',
       description: 'Finn\'s best friend and sidekick'
     },
     {
-      image: 'https://via.placeholder.com/300x200',
+      image: 'https://w0.peakpx.com/wallpaper/1001/189/HD-wallpaper-adventure-time-tree-house.jpg',
       title: 'TreeHouse',
-      description: 'The main antagonist of the Ice Kingdom'
+      description: 'Located on the edge of the Candy Kingdom, this is the home of our heroes!'
     }
   ];
 

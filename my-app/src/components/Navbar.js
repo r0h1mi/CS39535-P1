@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from './images/logo.png';
+// import logo from './images/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="logo-link">
-        <img src={logo} alt="Treehouse Logo" className="logo" />
+        <img src="https://1000logos.net/wp-content/uploads/2020/09/Adventure-Time-Logo.png" alt="Treehouse Logo" className="logo" />
       </Link>
       <ul className="nav-links">
         <li>
